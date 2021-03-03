@@ -1,0 +1,31 @@
+.choose-div{
+    background: #CDDDDA;
+    padding: 50px 0px;
+}
+.sections{
+    margin-bottom: 80px;
+}
+.section-desc{
+    height: 130px;
+}
+.secimages{
+    height: 90px;
+}
+.row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.choose-div h4{
+    text-align: center;
+    margin:0px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+}
+h6{
+    font-size: 20px;
+}
+p{
+    margin: 0%;
+    text-transform: none;
+}
