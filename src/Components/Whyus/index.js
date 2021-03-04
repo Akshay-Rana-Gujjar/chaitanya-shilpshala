@@ -11,8 +11,8 @@ function Whyus(){
         <div className="row">
         <div className="col-lg-6 col-12 sections">
             <div className="row">
-                <div className="col-3 d-flex justify-content-center align-items-center"><img src={workload} alt="image" className="secimages pb-2"/></div>
-                <div className="col-9 pl-0 section-desc">
+                <div className="col-lg-3 col-md-3 col-12 text-center"><img src={workload} alt="image" className="secimages pb-2"/></div>
+                <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">
                     <h6>TRANSFERING WORKLOAD</h6>
                     <p>Reducing your workload  of ongoing multiple projects. Here our aim is to provide a quality work with quantity of project workflows.</p>
                 </div>
@@ -20,8 +20,8 @@ function Whyus(){
         </div>
         <div className="col-lg-6 col-12 sections">
             <div className="row">
-                <div className="col-3 d-flex justify-content-center align-items-center"><img src={consulting} alt="image" className="secimages"/></div>
-                <div className="col-9 pl-0 section-desc">
+                <div className="col-lg-3 col-md-3 col-12 text-center"><img src={consulting} alt="image" className="secimages"/></div>
+                <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">
                     <h6>EMERGING AS A BIM CONSULTANT</h6>
                     <p>We can be presentedus as bim consultant for several office in india and abroad those who don't have the access and budget to afford bim services at their own office.</p>
                 </div>
@@ -29,8 +29,8 @@ function Whyus(){
         </div>
         <div className="col-lg-6 col-12 sections">
             <div className="row">
-                <div className="col-3 d-flex justify-content-center align-items-center"><img src={remoteOffice} alt="image" className="secimages"/></div>
-                <div className="col-9 pl-0 section-desc">
+                <div className="col-lg-3 col-md-3 col-12 text-center"><img src={remoteOffice} alt="image" className="secimages"/></div>
+                <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">
                     <h6>PROVIDING REMOTE OFFICE FICILITY FOR BIM</h6>
                     <p>To provide bim facility for offices on remote basis by hiring people and allocating them for the office on project basis.(Like BIM Engineers)</p>
                 </div>
@@ -38,8 +38,8 @@ function Whyus(){
         </div>
         <div className="col-lg-6 col-12 sections">
             <div className="row">
-                <div className="col-3 d-flex justify-content-center align-items-center"><img src={conversion} alt="image" className="secimages"/></div>
-                <div className="col-9 pl-0 section-desc">
+                <div className="col-lg-3 col-md-3 col-12 text-center"><img src={conversion} alt="image" className="secimages"/></div>
+                <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">
                     <h6>CONVERSION OF OLD ARCHITECTURE PRACTICES</h6>
                     <p>We can be presentedus as bim consultant for several office in india and abroad those who don't have the access and budget to afford bim services at their own office.</p>
                 </div>

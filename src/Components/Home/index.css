@@ -4,6 +4,10 @@
     background: #00140F;
     height: 80px;
 }
+.logo{
+    height: 50px;
+    width: 60px;
+}
 .navbar-light .navbar-brand{
     color:#FFFFFF!important;
     font-size: 24px;
@@ -40,4 +44,76 @@
     color: #FFFFFF;
     font-size: 80px;
     font-weight: 700;
+}
+
+@media screen and (max-width:1024px){
+    .navbar-nav li{
+        margin-right: 20px;
+    }   
+    .hero h1{
+        margin-top: -300px;
+        font-size: 70px;
+    }
+    .navbar-toggler{
+        margin: 0%;
+    }
+}
+@media screen and (max-width:768px){
+    .navbar-toggler{
+        margin: 0%;
+        padding: 5px;
+    }
+    .hero h1{
+        margin-top: -250px;
+        font-size: 60px;
+    }
+    .navbar-collapse{
+        z-index: 1;
+        background: #00140F;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:650px){
+    .navbar{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .hero h1{
+        margin-top: -160px;
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:425px){
+    .navbar{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .hero h1{
+        margin-top: -125px;
+        font-size: 35px;
+    }
+    .navbar-nav li{
+        margin-right: 0px;
+    }
+    .logo{
+        height: 40px;
+        width: 50px;
+    }
+    .navbar-light .navbar-brand{
+        margin-right: 0%;
+        font-size: 20px;
+    }
+    .navbar-toggler{
+        padding: 2px;
+    }
+    .navbar-nav li a{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:320px){
+    .hero h1{
+        margin-top: -95px;
+        font-size: 30px;
+    }
 }
