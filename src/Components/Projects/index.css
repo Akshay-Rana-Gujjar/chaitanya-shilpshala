@@ -6,11 +6,16 @@
     font-weight: 700;
     font-size: 40px;
 }
+.projects-head .row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
 .project-imgs-div{
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap;   /* IE10 */
     flex-wrap: wrap;
+    margin: 0%;
     margin-bottom: 50px;
 }
 .project-imgs-div .column{
@@ -34,5 +39,18 @@
     .project-imgs-div .column{
       flex: 100%;
       max-width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+    .projects-head{
+        font-size: 30px;
+    }
+    .project-imgs-div .column{
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    .projects-head{
+        font-size: 25px;
     }
 }

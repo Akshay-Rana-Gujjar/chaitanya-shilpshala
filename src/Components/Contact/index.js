@@ -10,7 +10,7 @@ function Contact(){
     return(
         <>
         <div className="contact-div" id="contact">
-        <div className=" mx-auto">
+        <div className="mx-auto">
             <h4>CONTACT US</h4>
             <form action=""  className="mx-auto" autoComplete="off" onSubmit={formSubmit}>
                 <label>Name</label>

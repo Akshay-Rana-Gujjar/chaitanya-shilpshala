@@ -14,7 +14,7 @@
     font-size: 40px;
 }
 form{
-    width: 50%;
+    width: 40%;
 }
 form label{
     text-transform: uppercase;
@@ -59,4 +59,17 @@ button:focus,button:active{
     background: #16332C;
     color: #fff;
     text-transform: uppercase;
+    margin-bottom: 0%;
+}
+
+@media screen and (max-width:425px){
+    form{
+        width: 80%;
+    }
+    .social-div{
+        width: 60%;
+    }
+    .contact-div p{
+        font-size: 13px;
+    }
 }

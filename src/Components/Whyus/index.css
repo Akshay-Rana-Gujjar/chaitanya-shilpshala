@@ -2,18 +2,23 @@
     background: #CDDDDA;
     padding: 50px 0px;
 }
-.sections{
-    margin-bottom: 80px;
+.choose-div .row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.sections .row{
+    /* height: 160px; */
+    /* border: 1px solid white; */
+    margin-bottom: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .section-desc{
     height: 130px;
 }
 .secimages{
     height: 90px;
-}
-.row{
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-top: 20px;
 }
 .choose-div h4{
     text-align: center;
@@ -22,10 +27,38 @@
     font-weight: 700;
     font-size: 40px;
 }
-h6{
+.section-desc h6{
     font-size: 20px;
 }
-p{
+.section-desc p{
     margin: 0%;
     text-transform: none;
+}
+
+@media screen and (max-width:768px){
+    .sections .row{
+        margin-bottom: 0px;
+    }
+    .secimages{
+        height: 80px;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:425px){
+    .sections .row{
+        margin-bottom: 35px;
+    }
+    .section-desc{
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .choose-div h4{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:320px){
+    .choose-div h4{
+        font-size: 25px;
+    }
 }
