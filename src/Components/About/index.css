@@ -1,26 +1,84 @@
 .about{
     margin: 40px 0px;
     background: #00000069;
-    min-height: 100vh;
+    height: auto;
     width: 100%;
     padding-bottom: 20px;
     background-image: url("../Images/about.jpg");
     padding: 50px;
 }
-.about img{
-    width: 100%;
-    position: relative;
-}
 .about h4{
     text-align: center;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 40px;
     width: 90%;
 }
 .about p{
-    width: 90%;
+    width: 85%;
     margin: auto;
     font-size: 24px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px){
+    .about p{
+        width: 100%;
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .about{
+        padding: 40px;
+        padding-top: 20px;
+    }
+    .about h4{
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:500px){
+    .about p{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .about{
+        padding: 30px;
+        padding-top: 20px;
+    }
+    .about h4{
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:375px){
+    .about p{
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .about{
+        padding: 20px;
+        padding-top: 15px;
+    }
+    .about h4{
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:320px){
+    .about p{
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .about{
+        padding: 10px;
+        padding-top: 15px;
+    }
+    .about h4{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
 }
