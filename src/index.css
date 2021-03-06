@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: isocteur;
-  src: url(Assets/Fonts/ISOCTEUR.ttf);
+  src: url(assets/Fonts/ISOCTEUR.ttf);
 }
 .base-font{
   font-family: isocteur!important;

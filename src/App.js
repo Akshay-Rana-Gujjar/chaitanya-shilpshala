@@ -8,11 +8,13 @@ import Whyus from './Components/Whyus';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Services from './Components/Services';
+import HeroSection from './Components/HeroSection';
 
 function App() {
   return (
     <>
     <Home/>
+    <HeroSection/>
     <About/>
     <Services/>
     <Whyus/>
