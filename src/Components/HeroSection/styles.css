@@ -1,0 +1,29 @@
+.hero-carousel-slide {
+  height: 80vh;
+  /* width: 100vw; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-item {
+  transition: transform 0.2s linear !important;
+}
+.slick-prev, .slick-next{
+    z-index: 1;
+    transform: scale(1.5);
+}
+
+.slick-next{
+    right: 25px !important;
+}
+
+.slick-prev{
+    left: 25px !important;
+}
+
+@media (max-width: 768px) {
+  .hero-name {
+    font-size: 3.5rem !important
+}
+}
