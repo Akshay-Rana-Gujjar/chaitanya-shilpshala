@@ -1,8 +1,8 @@
 import './index.css';
-import about from '../Images/about.jpg';
+// import about from '../Images/about.jpg';
 
 function About(){
-    return(
+    return(<>
         <div className="about" id="about">
             <div className="about-section">
             <h4>About us</h4>
@@ -12,6 +12,22 @@ function About(){
             <p>We provide services for Architecture, Interior Design Packages, Details Drawings, and Documentation.We also provide BIM Services in Revit Architecture.In this portfolio you will able to figure out various range of projects firm had executed.</p>
             </div>
         </div>
+        <div className="team-section">
+            <h4>Our Team</h4>
+            <div className="row">
+                <div className="col-lg-6 col-md-6 col-sm-12 text-center">
+                    <img src="https://images.wallpaperscraft.com/image/leaves_green_plant_200636_240x320.jpg" alt="team"/>
+                    <h5>Name</h5>
+                    <p>Job Profile</p>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-12 text-center">
+                    <img src="https://images.wallpaperscraft.com/image/leaves_green_plant_200636_240x320.jpg" alt="team"/>
+                    <h5>Name</h5>
+                    <p>Job Profile</p>
+                </div>
+            </div>
+        </div>
+        </>
     )
 }
 export default About;

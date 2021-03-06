@@ -21,6 +21,31 @@
     font-size: 24px;
     margin-bottom: 20px;
 }
+.team-section{
+    width: 100%;
+    margin: 50px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.team-section h4{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 90%;
+}
+.team-section .row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.team-section .row div img{
+    height: 120px;
+    width: 120px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #adadade0;
+}
 
 @media screen and (max-width:768px){
     .about p{
