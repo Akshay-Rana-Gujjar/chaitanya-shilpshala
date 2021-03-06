@@ -9,7 +9,7 @@ function Whyus(){
     <div className="choose-div">
     <h4>WHY CHOOSE US?</h4>
         <div className="row">
-        <div className="col-lg-6 col-12 sections">
+        <div className="col-lg-6 col-12 sections" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
             <div className="row">
                 <div className="col-lg-3 col-md-3 col-12 text-center"><img src={workload} alt="image" className="secimages pb-2"/></div>
                 <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">
@@ -18,7 +18,7 @@ function Whyus(){
                 </div>
             </div>
         </div>
-        <div className="col-lg-6 col-12 sections">
+        <div className="col-lg-6 col-12 sections" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
             <div className="row">
                 <div className="col-lg-3 col-md-3 col-12 text-center"><img src={consulting} alt="image" className="secimages"/></div>
                 <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">
@@ -27,7 +27,7 @@ function Whyus(){
                 </div>
             </div>
         </div>
-        <div className="col-lg-6 col-12 sections">
+        <div className="col-lg-6 col-12 sections" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
             <div className="row">
                 <div className="col-lg-3 col-md-3 col-12 text-center"><img src={remoteOffice} alt="image" className="secimages"/></div>
                 <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">
@@ -36,7 +36,7 @@ function Whyus(){
                 </div>
             </div>
         </div>
-        <div className="col-lg-6 col-12 sections">
+        <div className="col-lg-6 col-12 sections" data-aos="fade" data-aos-duration="700" data-aos-delay="500">
             <div className="row">
                 <div className="col-lg-3 col-md-3 col-12 text-center"><img src={conversion} alt="image" className="secimages"/></div>
                 <div className="col-lg-9 col-md-9 col-12 pl-0 section-desc">

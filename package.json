@@ -6,16 +6,19 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.1",
+    "aos": "^2.3.4",
     "bootstrap": "^4.6.0",
+    "classnames": "^2.2.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.3",
-    "swiper": "^6.5.0",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.0",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && echo 'www.chaitanyashilpshala.com' > ./build/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
